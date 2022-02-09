@@ -400,7 +400,14 @@ Start of Filter Section
   .fullscreenpic{
     height: 200px;
   }
-
+  .gitbutton{
+    display: flex;
+    justify-content: center;
+  }
+  .gitbtn {
+  justify-self: center;
+  align-self: center;
+}
 /* 
 ================
 Start of Contact Section
