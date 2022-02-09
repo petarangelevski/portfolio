@@ -1,21 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .button{
     display: none;
     position: fixed;
     overflow-y: auto;
-    top: 0;
+
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.0);
     color: #f1f1f1;
     text-align: center;
-    width: 100vw;
-    height: 100vh;
+ 
 }
 #bgvid {
     position: fixed;
     top: 0;
     left: 0;
-    min-width: 100%;
-    min-height: 100%
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    border: 0px;
+}
+.btn-intro{
+    background-color: rgba(0, 0, 0, 0.0);
+    border-color: rgba(0, 0, 0, 0.123);
+    /* border: none; */
+    color: white;
+    cursor: pointer;
+    font-size: 50px;
+    width: 35%;
+    height: 60px;
+    margin-bottom: 7%;
+    color: rgba(177, 9, 9, 0.788);
 }
