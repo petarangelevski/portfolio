@@ -121,7 +121,7 @@ header body {
     color: var(--clr-white);
     font-family: var(--ff-rakopisno);
     line-height: 4.5rem;
-    font-size: 7rem;
+    font-size: 4rem;
     text-shadow: 0 5px 5px var(--clr-black);
     animation: slidein 5s ease;
     -webkit-animation: slidein 5s ease;
@@ -1032,6 +1032,15 @@ Media Queries
     width: 90%;
     align-self: center;
   }
+  .animation-text-2{
+    font-size: 4rem;
+  }
+  .menu-item{
+    width: 100%;
+  }
+  .show-text .info-text {
+    width: auto;
+  }
   }
   
   @media screen and (min-width: 300px) and (max-width: 475px){
@@ -1117,6 +1126,18 @@ Media Queries
     .fullscreenpic{
       height: 200px;
       width: 150px;
+    }
+    .menu-item{
+      width: 100%;
+    }
+    .show-text .info-text {
+      width: auto;
+    }
+    .show-text {
+      width: auto;
+    }
+    .item-info {
+      width: 70%;
     }
   }
   
@@ -1231,6 +1252,15 @@ Media Queries
       height: 200px;
       width: 450px;
     }
+    .menu-item{
+      width: 600px;
+    }
+    .show-text{
+      width: 600px;
+    }
+    .animation-text-2{
+      font-size: 3rem;
+    }
   }
   @media screen and (min-width:701px) and (max-width:767px) {
     .card{
@@ -1247,11 +1277,8 @@ Media Queries
       height: 200px;
       width: 500px;
     }
-    .menu-item{
-        /* width: 600px; */
-    }
-    .show-text{
-        /* width: 600px; */
+    .animation-text {
+      color: yellow;
     }
     body{
       background-color: red;
