@@ -772,7 +772,7 @@ Media Queries
       width: 95vw;
     }
     .about-pictures-container{
-        height: 900px;
+        height: 960px;
     }
     .menu-item {
       width: 700px;
@@ -804,6 +804,12 @@ Media Queries
     .card{
       /* height: 550%; */
     }
+    .main-item-picture {
+      height: 830px;
+    }
+    .main-item-picture {
+      height: 870px;
+    }
   }
   @media screen and (min-width: 1024px) and (max-width: 1439px){
     .card{
@@ -823,6 +829,9 @@ Media Queries
     }
     .mapa{
       width: 100%;
+    }
+    .main-item-picture {
+      height: 950px;
     }
   }
   @media screen and (min-width: 828px) and (max-width: 1023px) {
@@ -954,6 +963,9 @@ Media Queries
     width: 90%;
     align-self: center;
   }
+  .main-item-picture {
+    width: 80%;
+  }
   }
   
   @media screen and (min-width: 475px) and (max-width: 767px) {
@@ -984,7 +996,7 @@ Media Queries
     align-items: center;
   }
   .main-item-picture{
-    width: 70%;
+    width: 90%;
   }
     .information-container{
       align-items: center;
@@ -1096,7 +1108,7 @@ Media Queries
       align-items: center;
     }
     .main-item-picture{
-      width: 50%;
+      width: 80%;
       height: 50%;
       margin-bottom: 2rem;
     }
