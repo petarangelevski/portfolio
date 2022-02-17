@@ -3,7 +3,7 @@ const menu = [
         id: 1,
         ime: "Project 1 - Kafeterija Fri",
         img: "./images/kafeterijafri.png",
-        info: "Kafeterija Fri e mojot prv izraboten proekt vo koj se iskoristeni samo HTML i CSS."
+        info: "Made with: <br> -HTML and<br> -CSS"
     },
     {
         id: 2,
